@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -7,19 +6,23 @@
 <title>POWER INCOME BY INI NAKY</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f4f7fc;color:#17243b}
-header{background:#102b59;color:white;padding:24px 18px}
-header h1{margin:0;font-size:25px}
+body{margin:0;font-family:Arial,sans-serif;background:#f3f6fc;color:#17243b}
+header{background:#102b59;color:white;padding:24px}
+header h1{margin:0}
 header p{color:#c9dcff}
-nav{background:#fff;padding:14px;display:flex;gap:18px;overflow:auto}
-nav a{color:#174b91;text-decoration:none;white-space:nowrap;font-weight:bold}
-.hero{background:linear-gradient(130deg,#10346d,#1676c8);color:white;padding:45px 22px}
-.hero h2{font-size:30px;margin:0 0 12px}
-.hero p{line-height:1.6}
-main{max-width:900px;margin:auto;padding:20px}
-.card{background:white;padding:22px;border-radius:14px;margin:16px 0;box-shadow:0 3px 14px #102b5910}
+nav{background:white;padding:15px;display:flex;gap:20px;overflow:auto}
+nav a{color:#1757a0;text-decoration:none;font-weight:bold;white-space:nowrap}
+.hero{background:linear-gradient(130deg,#10346d,#1676c8);color:white;padding:55px 22px}
+.hero h2{font-size:30px}
+.hero p{line-height:1.7}
+main{max-width:1000px;margin:auto;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:white;border-radius:14px;padding:22px;box-shadow:0 3px 15px #102b5912}
 .card h3{color:#1555a0}
-.btn{display:inline-block;background:#1768c5;color:white;padding:12px 18px;border-radius:8px;text-decoration:none}
+.price{font-size:21px;font-weight:bold;color:#1263b5}
+.tag{display:inline-block;background:#e8f1ff;color:#1757a0;padding:7px 10px;border-radius:20px;font-size:12px}
+.btn{display:inline-block;background:#1768c5;color:white;padding:12px 17px;border-radius:8px;text-decoration:none;margin-top:12px}
+section{margin-bottom:30px}
 footer{text-align:center;background:#102b59;color:white;padding:25px}
 small{color:#66758b}
 </style>
@@ -27,38 +30,56 @@ small{color:#66758b}
 <body>
 <header>
 <h1>POWER INCOME</h1>
-<p>BY INI NAKY · Digital Business Platform</p>
+<p>BY INI NAKY · DIGITAL BUSINESS PLATFORM</p>
 </header>
 <nav>
 <a href="#home">Beranda</a>
-<a href="#affiliate">Affiliate</a>
 <a href="#produk">Produk Digital</a>
+<a href="#affiliate">Affiliate</a>
 <a href="#iklan">Iklan</a>
 </nav>
 <section class="hero" id="home">
 <h2>Bangun Penghasilan Digital</h2>
-<p>Temukan produk, rekomendasi, dan peluang bisnis digital dalam satu platform.</p>
-<a class="btn" href="#produk">Jelajahi Sekarang</a>
+<p>Temukan produk digital, panduan, dan rekomendasi bermanfaat dalam satu platform.</p>
+<a class="btn" href="#produk">Lihat Produk</a>
 </section>
 <main>
-<section class="card" id="affiliate">
-<h3>Affiliate Marketing</h3>
-<p>Temukan rekomendasi produk pilihan melalui tautan afiliasi resmi.</p>
-<small>Tautan afiliasi akan ditambahkan setelah pendaftaran program.</small>
+<section id="produk">
+<h2>Katalog Produk Digital</h2>
+<p>Produk digital pilihan POWER INCOME.</p>
+<div class="grid">
+<div class="card">
+<span class="tag">Produk 01</span>
+<h3>Template Denah Rumah</h3>
+<p>Template referensi perencanaan rumah minimalis.</p>
+<div class="price">Rp25.000</div>
+<p><small>Harga contoh. Belum tersedia untuk pembelian.</small></p>
+</div>
+<div class="card">
+<span class="tag">Produk 02</span>
+<h3>Anggaran Renovasi</h3>
+<p>Template pencatatan dan perencanaan biaya renovasi.</p>
+<div class="price">Rp15.000</div>
+<p><small>Harga contoh. Belum tersedia untuk pembelian.</small></p>
+</div>
+<div class="card">
+<span class="tag">Produk 03</span>
+<h3>E-book Desain Rumah</h3>
+<p>Panduan dasar inspirasi desain rumah minimalis.</p>
+<div class="price">Rp30.000</div>
+<p><small>Harga contoh. Belum tersedia untuk pembelian.</small></p>
+</div>
+</div>
 </section>
-<section class="card" id="produk">
-<h3>Toko Produk Digital</h3>
-<p>Temukan panduan, template, dan produk digital bermanfaat.</p>
-<small>Katalog dan pembayaran akan diaktifkan pada tahap berikutnya.</small>
+<section class="card" id="affiliate">
+<h2>Affiliate Marketing</h2>
+<p>Rekomendasi produk dari program afiliasi resmi.</p>
+<p><small>Segera hadir setelah akun afiliasi disetujui.</small></p>
 </section>
 <section class="card" id="iklan">
-<h3>Informasi dan Iklan</h3>
-<p>Platform ini sedang mempersiapkan monetisasi melalui jaringan iklan resmi.</p>
-<small>Iklan belum aktif dan memerlukan persetujuan penyedia.</small>
-</section>
-<section class="card">
-<h3>Misi Kami</h3>
-<p>Membangun platform digital yang bermanfaat, transparan, dan mudah digunakan.</p>
+<h2>Monetisasi Iklan</h2>
+<p>Persiapan integrasi jaringan iklan resmi.</p>
+<p><small>Iklan belum aktif. Menunggu persetujuan penyedia.</small></p>
 </section>
 </main>
 <footer>
